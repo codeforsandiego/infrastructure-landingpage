@@ -1,1 +1,3 @@
-layouts:     ./_layouts
+layouts:    ./_layouts
+url: "http://codeforsandiego.org"
+baseurl: "/infrastructure-landingpage/"

@@ -1,68 +1,26 @@
----
+\---
 title: Story Time
 layout: default
----
+\---
 .row{id: "teaser"}
   .col-md-12.col
     %h2.text-center Inform yourself and help
     %h1.text-center Rebuild
     %h2.text-center San Diego
 .row{id: "projects"}
-  .col-md-6{id: "citizen"}
-    %h3 Provide Feedback
-    .panel.panel-default
-      .panel-body
-        %img{src: "{{site.baseurl}}images/engagement.png", class:"img-responsive"}
-    %h4 San Diego CIP Citizen Engagement
   .col-md-6{id: "cip"}
     %h3 Get informed
     .panel.panel-default
       .panel-body
         %img{src: "{{site.baseurl}}images/cip.png", class:"img-responsive"}
     %h4 CIP
-    %a{name: "feedback"}
-.row.details.projects{id: "feedback-project"}
-  .col-md-12
-    %h1 Provide Feedback
-    .row
-      .col-md-2.col-md-offset-2
-        %img{src: "{{site.baseurl}}images/support.png", class: "img-responsive img-circle pull-right"}
-      .col-md-4.col-md-offset-1
-        %h2 Support projects
-        %p You can vote for projects and show your support. Others will see your support and so will the city and the planning groups.
-    .row
-      .col-md-8.col-md-offset-2
-        %hr
-    .row
-      .col-md-2.col-md-offset-2
-        %img{src: "{{site.baseurl}}images/comment.png", class: "img-responsive img-circle pull-right"}
-      .col-md-4.col-md-offset-1
-        %h2 Comment on projects
-        %p Leave a comment and read what others think about this project
-    .row
-      .col-md-8.col-md-offset-2
-        %hr
-    .row
-      .col-md-12
-        %h4.text-center This is your chance to support the infrastructure projects you think are most important in your neighborhood.
-        %h4.text-center The projects are those that were identified by your community planning group in October 2012.
+  .col-md-6{id: "citizen"}
+    %h3 Help Prioritize
+    .panel.panel-default
+      .panel-body
+        %img{src: "{{site.baseurl}}images/engagement.png", class:"img-responsive"}
+    %h4 San Diego CIP Citizen Engagement
 %a{name: "get_informed"}
-.row.details{id: ""}
-  .col-md-12
-    %h1 Screenshots
-  .row
-    .col-md-4
-      .panel.panel-default
-        .panel-body
-          %img{src: "{{site.baseurl}}images/feedback_screen_3.jpg", class: "img-responsive"} 
-    .col-md-4
-      .panel.panel-default
-        .panel-body
-          %img{src: "{{site.baseurl}}images/feedback_screen_2.jpg", class: "img-responsive"} 
-    .col-md-4
-      .panel.panel-default
-        .panel-body
-          %img{src: "{{site.baseurl}}images/feedback_screen_1.jpg", class: "img-responsive"} 
 .row.details.projects{id: ""}
   .col-md-12
     .row
@@ -88,8 +46,67 @@ layout: default
         %img{src: "{{site.baseurl}}images/project_costs.png", class: "img-responsive img-circle pull-right"}
       .col-md-4.col-md.offset
         %h2 
+.row.details{id: ""}
+.col-md-12
+  %h1 Screenshots
+.row
+  .col-md-4
+    .panel.panel-default
+      .panel-body
+        %img{src: "{{site.baseurl}}images/cip_start.png", class: "img-responsive"} 
+  .col-md-4
+    .panel.panel-default
+      .panel-body
+        %img{src: "{{site.baseurl}}images/cip_list.png", class: "img-responsive"} 
+  .col-md-4
+    .panel.panel-default
+      .panel-body
+        %img{src: "{{site.baseurl}}images/cip_project_detail.png", class: "img-responsive"} 
+%a{name: "feedback"}
+.row.details.projects{id: "feedback-project"}
+  .col-md-12
+    %h1 Help Prioritize
+    .row
+      .col-md-2.col-md-offset-2
+        %img{src: "{{site.baseurl}}images/support.png", class: "img-responsive img-circle pull-right"}
+      .col-md-4.col-md-offset-1
+        %h2 Support projects
+        %p You can vote for projects and show your support. Others will see your support and so will the city and the planning groups.
+    .row
+      .col-md-8.col-md-offset-2
+        %hr
+    .row
+      .col-md-2.col-md-offset-2
+        %img{src: "{{site.baseurl}}images/comment.png", class: "img-responsive img-circle pull-right"}
+      .col-md-4.col-md-offset-1
+        %h2 Comment on projects
+        %p Leave a comment and read what others think about this project
+    .row
+      .col-md-8.col-md-offset-2
+        %hr
+    .row
+      .col-md-12
+        %h4.text-center This is your chance to support the infrastructure projects you think are most important in your neighborhood.
+        %h4.text-center The projects are those that were identified by your community planning group in October 2012.
+.row.details{id: ""}
+  .col-md-12
+    %h1 Screenshots
+  .row
+    .col-md-4
+      .panel.panel-default
+        .panel-body
+          %img{src: "{{site.baseurl}}images/feedback_screen_3.jpg", class: "img-responsive"} 
+    .col-md-4
+      .panel.panel-default
+        .panel-body
+          %img{src: "{{site.baseurl}}images/feedback_screen_2.jpg", class: "img-responsive"} 
+    .col-md-4
+      .panel.panel-default
+        .panel-body
+          %img{src: "{{site.baseurl}}images/feedback_screen_1.jpg", class: "img-responsive"} 
 %a{name: "about_us"}
 .row.detail
   .col-md-12
     %h1 About us
     %h2 Code for San Diego
+    %p We are the software development group affiliated with Open San Diego, which is a larger group of San Diegans who meet regularly to share knowledge and collaborate on all sorts of projects to make our region a better place to live. 

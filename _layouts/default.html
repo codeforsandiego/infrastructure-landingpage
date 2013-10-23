@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <title>
+      {{ title }}
+    </title>
+    <link href='{{site.baseurl}}css/bootstrap.css' rel='stylesheet'>
+    <link href='{{site.baseurl}}css/main.css' rel='stylesheet'>
+  </head>
+  <body>
+    <nav class='navbar navbar-default navbar-fixed-top' role='navigation'>
+      <div class='container'>
+        <div class='navbar-left'>
+          <img src='{{site.baseurl}}images/logo.png'>
+        </div>
+        <p class='navbar-text'></p>
+        <ul class='nav navbar-nav'>
+          <li class='active'>
+            <a href='#get_informed'>Get Informed</a>
+          </li>
+          <li class='active'>
+            <a href='#feedback'>Help Prioritize</a>
+          </li>
+          <li class='active'>
+            <a href='#about_us'>About</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class='fluid-container'>
+      {{ content }}
+    </div>
+  </body>
+</html>
