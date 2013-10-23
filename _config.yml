@@ -1,2 +1,3 @@
 layouts:    ./_layouts
-baseurl: /infrastructure-landingpage
+url: "http://codeforsandiego.org/infrastructure-landingpage"
+baseurl: ""
