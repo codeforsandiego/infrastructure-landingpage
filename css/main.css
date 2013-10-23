@@ -1,0 +1,53 @@
+.fluid-container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+.fluid-container .row {
+  padding:10px;
+}
+#teaser {
+  background: url(../images/gaslamp_green.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color #fff;
+}
+#teaser h1 {
+  font-size: 9em;
+  color: #fff;
+ text-shadow: 0.0em 0.0em 0.01em #CCC;
+ text-transform: uppercase;
+ letter-spacing: 5px;
+ margin: 40px 0;
+}
+#teaser h2 {
+  font-size: 3em;
+  color: #fff;
+  font-weight: normal;
+  margin: 30px 0;
+}
+#projects {
+  background: ##f1f1f1;
+}
+.projects {
+  background: #F3EDDD;
+}
+.row.details .row{
+  margin-bottom: 20px;
+}
+.details hr {
+  border-color: #cdc8bb;
+}
+
+
+
+
+
+/** Util **/
+.centered {
+  margin: 0 auto;
+}
