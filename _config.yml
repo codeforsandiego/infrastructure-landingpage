@@ -1,1 +1,2 @@
-layouts:     ./_layouts
+layouts:    ./_layouts
+baseurl :   /infrastructure-landingpage
