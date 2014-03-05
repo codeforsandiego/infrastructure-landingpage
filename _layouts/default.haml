@@ -9,16 +9,14 @@
 
   %body
     %nav{ class:"navbar navbar-default navbar-fixed-top", role:"navigation"}
-      .container
-        .navbar-left
+      %ul{ class: "nav"}
+        %li#logo
           %img{src: "{{site.baseurl}}images/logo.png"}
-        %p{ class: "navbar-text"}
-        %ul{ class: "nav navbar-nav"}
-          %li{ class: "active"}
-            %a{ href: "#get_informed"}Get Informed
-          %li{ class: "active"}
-            %a{ href: "#feedback"}Help Prioritize
-          %li{ class: "active"}
-            %a{ href: "#about_us"}About
+        %li{ class: "active"}
+          %a{ href: "#get_informed"}Get Informed
+        %li{ class: "active"}
+          %a{ href: "#feedback"}Help Prioritize
+        %li{ class: "active"}
+          %a{ href: "#about_us"}About
     .fluid-container
       = "{{ content }}"
