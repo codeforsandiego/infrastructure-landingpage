@@ -1,3 +1,36 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5em
+}
+ul.nav {
+  background: #F3EDDD;
+  border-bottom: 1px solid #eee5cf;
+}
+ul.nav li{
+  float: left;
+  padding: 15px 20px;
+}
+ul.nav li#logo {
+  padding: 5px;
+  margin: 0 0 0 10px;
+}
+ul.nav li#logo img {
+  height: 40px;
+}
+ul.nav li a {
+  font-size: 20px;
+  color: #555;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  line-height: 24px;
+}
+ul.nav li a:hover {
+  background: none;
+  color: #333;
+}
 .fluid-container {
   padding-left: 15px;
   padding-right: 15px;
